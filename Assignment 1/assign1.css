@@ -3,7 +3,36 @@
     padding: 0;
     box-sizing:border-box;
     color: #ffc4d6;
-  }
+    }
+    .navbar {
+        overflow: hidden;
+        background-color: #dd356e;
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      
+      .navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        font-size: 24px;
+      }
+      
+      .navbar b {
+        float: center;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        font-size: 24px;
+      }
+    
+      .navbar a:hover {
+        color: black;
+      }
   body {
     height: 100vh;
     background-image: url('background.png'); 
@@ -46,7 +75,7 @@ label, input, h4 {
     box-sizing: border-box;
     box-shadow: 0 0 20px rgba(97, 97, 97, 0.3);
     margin: 20px auto;
-    display: flex;
+    display: flexbox;
     justify-content: center;
     align-items: center;
 }

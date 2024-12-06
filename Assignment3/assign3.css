@@ -86,7 +86,7 @@ input[type="number"] {
     text-align: center;
     width: 90%;
     background-color: #ffa6c1;
-    color: #e0e5ec;
+    color: #ff5d8f;
     font-size: 1em;
     margin-top: 15px;
     transition: all 0.3s ease;
@@ -108,7 +108,7 @@ input[type="number"]:focus {
 button {
     padding: 12px 25px;
     background-color: #1e88e5;
-    color: #e0e5ec;
+    color: #ffff;
     border: none;
     border-radius: 8px;
     font-size: 1.1em;
@@ -124,7 +124,7 @@ button:hover {
 }
 
 .result, .resultText, .resultNumber {
-    color: #ccd6e3;
+    color: #ffff;
     font-weight: bold;
     font-size: 1.2em;
     margin-top: 10px;

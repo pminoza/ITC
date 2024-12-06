@@ -15,13 +15,13 @@
     <!-- Navbar -->
     <nav class="navbar">
         <div class="logo">
-            <a href="#">Precious</a>
+            <a href="https://daigler20.addu.edu.ph/login/index.php">CS 1130</a>
         </div>
         <ul class="nav-links">
-            <li><a href="#">Assignment 1</a></li>
-            <li><a href="#">Assignment 2</a></li>
-            <li><a href="#">Assignment 3</a></li>
-            <li><a href="#">Assignment 4</a></li>
+            <li><a href="Assignment 1/assign1.html"> Assignment 1</a></a></li>
+            <li><a href="Assignment 2/assign2.html">Assignment 2</a></li>
+            <li><a href="Assignment3/assign3.html">Assignment 3</a></li>
+            <li><a href="Assignment4/assign4.html">Assignment 4</a></li>
         </ul>
         <div class="burger" onclick="toggleMenu()">
             <i class="fas fa-bars"></i>
@@ -51,61 +51,13 @@
                 I’m passionate about technology, web design, and creative development.
             </p>
             <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/precious-mi%C3%B1oza-658aa832a/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/pminoza"><i class="fa-brands fa-github"></i></a>
                 <a href="https://www.instagram.com/prcs.mnz/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             </div>
         </div>
     </section>
 
-
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-
-            // Toggle navbar menu on small screens
-            function toggleMenu() {
-                const navLinks = document.querySelector('.nav-links');
-                navLinks.classList.toggle('active');
-            }
-
-            const textElement = document.querySelector('.dynamic-text');
-            const phrases = [
-                "   Computer Science Student",
-                "   Web Developer",
-                "   Graphic Designer",
-                "   Aspiring UI/UX Designer",
-                "   Future Software Engineer"
-            ];
-    
-            let phraseIndex = 0;
-            let charIndex = 0;
-            let typingSpeed = 100; // Speed of typing in milliseconds
-            let erasingSpeed = 50; // Speed of erasing in milliseconds
-            let delayBetweenPhrases = 1500; // Delay between phrases
-    
-            function typePhrase() {
-                if (charIndex < phrases[phraseIndex].length) {
-                    textElement.textContent += phrases[phraseIndex].charAt(charIndex);
-                    charIndex++;
-                    setTimeout(typePhrase, typingSpeed);
-                } else {
-                    setTimeout(erasePhrase, delayBetweenPhrases);
-                }
-            }
-    
-            function erasePhrase() {
-                if (charIndex > 0) {
-                    textElement.textContent = phrases[phraseIndex].substring(0, charIndex - 1);
-                    charIndex--;
-                    setTimeout(erasePhrase, erasingSpeed);
-                } else {
-                    phraseIndex = (phraseIndex + 1) % phrases.length;
-                    setTimeout(typePhrase, typingSpeed);
-                }
-            }
-    
-            typePhrase();
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
