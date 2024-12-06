@@ -8,7 +8,7 @@
 /* Body */
 body {
     font-family: Arial, sans-serif;
-    background: url('background.png') no-repeat center center/cover;
+    background: url('assets/background.png') no-repeat center center/cover;
     color: rgb(0, 0, 0);
     overflow-x: hidden;
 }
@@ -190,7 +190,7 @@ body {
 }
 
 .home-img img {
-    max-width: 400px; /* Increased max-width */
+    max-width: 600px; /* Increased max-width */
     width: 100%;
     height: auto;
     display: block;
@@ -202,24 +202,24 @@ body {
 
 /* Home Content */
 .home-content {
-    max-width: 600px; /* Increased max-width */
+    max-width: 800px; /* Increased max-width */
     margin-left: 2.5rem; /* Increased margin */
 }
 
 .home-content h1 {
-    font-size: 3rem; /* Increased font size */
+    font-size: 4rem; /* Increased font size */
     margin-bottom: 1.5rem; /* Increased margin */
     color: #DD356E;
 }
 
 .home-content h2 {
-    font-size: 2.25rem; /* Increased font size */
+    font-size: 3.25rem; /* Increased font size */
     margin-bottom: 1.5rem; /* Increased margin */
     color: #000
 }
 
 .home-content p {
-    font-size: 1.25rem; /* Increased font size */
+    font-size: 1.75rem; /* Increased font size */
     line-height: 1.6;
     margin-bottom: 1.5rem; /* Increased margin */
 }
