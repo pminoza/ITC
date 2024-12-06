@@ -71,15 +71,28 @@ body {
         position: absolute;
         top: 60px;
         right: 10px;
-        background: rgba(0, 0, 0, 0.9);
+        background: #ff87ab;
         padding: 1.5rem; /* Increased padding */
         border-radius: 8px;
     }
 
     .navbar .nav-links.active {
         display: flex;
-    }
 
+    }
+    .nav-links .nav-link:hover {
+        background-color: #DD356E; /* Highlight background on hover */
+        color: white; /* Change text color on hover */
+        border-radius: 4px;
+    }
+.nav-links .dropdown li a {
+        color: white;
+        font-size: 1.25rem;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        display: block;
+        transition: background-color 0.3s;
+    }
     .navbar .burger {
         display: block;
     }

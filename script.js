@@ -5,6 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
         const navLinks = document.querySelector('.nav-links');
         navLinks.classList.toggle('active');
     }
+    const burger = document.querySelector('.burger');
+    burger.addEventListener('click', toggleMenu);
 
     const textElement = document.querySelector('.dynamic-text');
     const phrases = [
